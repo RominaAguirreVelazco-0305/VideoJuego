@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura con Phaser</title>
+    <!-- Incluye Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Incluye Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Fuente Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tu propio CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    
+    <div id="menu-container" class="text-center">
+        <h1 class="display-4">Aventura con Phaser</h1>
+        <button id="start-button" class="btn btn-primary btn-lg m-2">Iniciar Juego</button>
+        <button id="exit-button" class="btn btn-danger btn-lg m-2">Salir</button>
+    </div>
+    
+    <div id="ui-container" class="text-center" style="display: none;">
+        <p id="score-text" class="lead">Puntuación: 0</p>
+        <p id="game-over-text" class="text-danger font-weight-bold" style="display: none; font-size: 32px;">¡Juego Terminado!</p>
+        <button id="restart-button" class="btn btn-warning btn-lg mt-4" style="display: none;">Reiniciar Juego</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
