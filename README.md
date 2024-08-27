@@ -1,7 +1,8 @@
 # 🎮 Aventura con Phaser
 
-## Descripción📄 
+## Github Pages: https://rominaaguirrevelazco-0305.github.io/Curriculum/
 
+## Descripción📄 
 "Aventura con Phaser" es un emocionante videojuego interactivo desarrollado utilizando el framework Phaser 3. En este juego, los jugadores controlan un personaje que debe recolectar ⭐ estrellas mientras evita colisiones con 🌌 planetas enemigos. El objetivo es acumular la mayor cantidad de puntos posible y superar el puntaje de 500 para ganar el juego. 🎉
 
 ## Características
